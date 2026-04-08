@@ -9,7 +9,6 @@ dist/
 # Autoresearch artifacts
 results.tsv
 run.log
-progress.png
 
 # Agent prompt files (generated per-session)
 CLAUDE.md

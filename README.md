@@ -1,5 +1,7 @@
 # autoresearch
 
+![progress](progress.png)
+
 **Give an AI agent a measurable goal. Let it experiment autonomously. Wake up to results.**
 
 ```
