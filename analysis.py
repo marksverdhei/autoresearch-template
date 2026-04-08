@@ -70,9 +70,6 @@ def main():
 
     baseline_score = valid.loc[0, "score"]
 
-    # Determine "better" comparator
-    is_better = (lambda a, b: a <= b) if minimize else (lambda a, b: a >= b)
-
     # Kept and discarded subsets
     kept_v = valid[valid["status"] == "KEEP"]
     disc_v = valid[valid["status"] == "DISCARD"]
